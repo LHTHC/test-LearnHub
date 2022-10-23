@@ -10,7 +10,6 @@ const password2 = document.getElementById("password2");
 const phone = document.getElementById("phone");
 const signupBtn = document.querySelector(".btn-submit");
 
-console.log(signupBtn);
 handlePhoneMask(phone);
 
 signupForm.addEventListener("submit", (e) => {
