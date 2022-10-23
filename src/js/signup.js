@@ -35,7 +35,7 @@ signupForm.addEventListener("submit", (e) => {
     const html = `
     <div class="successful">
       <span>Вы успешно зарегистрированы</span>
-      <a href="./login.html">Вход</a>
+      <a href="./html/login.html">Вход</a>
     </div>`;
     formContainer.innerHTML = html;
   }, 1000);
